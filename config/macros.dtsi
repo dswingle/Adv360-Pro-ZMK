@@ -1,3 +1,15 @@
+macro_macro_rightpass: macro_macro_rightpass{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_rightpass";
+#binding-cells = <0>;
+bindings = <&kp RPAR>, <&kp NUMBER_8>, <&kp NUMBER_7>, <&kp A>;
+};
+macro_leftpass: macro_leftpass{
+compatible = "zmk,behavior-macro";
+label = "macro_leftpass";
+#binding-cells = <0>;
+bindings = <&kp X>, <&kp Z>, <&kp NUMBER_1>, <&kp NUMBER_2>, <&kp LPAR>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
